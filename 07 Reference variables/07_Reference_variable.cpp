@@ -35,11 +35,11 @@ int main()
 
     // ************ Reference Variables ****************
 
-    // float x = 455;
-    // float &y = x;
+    float x = 455;
+    float &y = x;
 
-    // cout << "x = " << x << endl;
-    // cout << "y = " << y << endl;
+    cout << "x = " << x << endl;
+    cout << "y = " << y << endl;
 
     // ******************* Typecasting **********************
 
