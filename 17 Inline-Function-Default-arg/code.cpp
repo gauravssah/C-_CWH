@@ -3,7 +3,7 @@ using namespace std;
 
 // int product(int x, int y)
 // {
-//     static int c = 0;
+//     static int c = 0;  // This is not recomenteted to use static inside inline function. itd retain the value of c , and next time goes with perv value of c.
 //     c = c + 1;
 //     return x * y + c;
 // }
