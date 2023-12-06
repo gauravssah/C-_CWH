@@ -41,6 +41,8 @@ void Emply ::getData()
 int main()
 {
     Emply gaurav;
+    // gaurav.a = 01; // error: 'int Emply::a' is private within this context
+
     gaurav.setData(1, 2, 3);
     gaurav.d = 11;
     gaurav.e = 12;
