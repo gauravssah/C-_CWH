@@ -36,10 +36,17 @@ int main()
     Dog.setData("Tommy", 1200, "Bark");
     Dog.color = "Black";
     Dog.weight = 10;
-    Dog.weight = 10;
     Dog.typeOfAnimal = "Dog";
-
     Dog.getData();
+
+    cout << "Anothe animal" << endl;
+
+    Animal cat;
+    cat.setData("cutty", 3200, "moye moye");
+    cat.color = "white";
+    cat.weight = 2;
+    cat.typeOfAnimal = "Cat";
+    cat.getData();
 
     return 0;
 }
