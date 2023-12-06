@@ -1,0 +1,3 @@
+
+    // mynum.onescomp();
+    // mynum.display();
