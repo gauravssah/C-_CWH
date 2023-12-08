@@ -6,6 +6,7 @@
         "complex": "cpp",
         "ratio": "cpp",
         "atomic": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "cmath": "cpp"
     }
 }
