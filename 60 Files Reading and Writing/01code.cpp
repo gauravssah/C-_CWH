@@ -6,7 +6,7 @@ using namespace std;
 The useful classes for working with files in c++ are:
 1. fstreambase
 2. ifstream  --> derived from fstreambase
-3. ofstream  --> derived from ifstream
+3. ofstream  --> derived from fstreambase
 */
 
 // In order to work with files in c++, you will have to open it.
