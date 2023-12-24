@@ -8,6 +8,7 @@
         "atomic": "cpp",
         "utility": "cpp",
         "cmath": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "iosfwd": "cpp"
     }
 }
