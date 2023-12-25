@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    // Connecting our file with stream.
+    // Connecting our file with gout stream.
     ofstream gout("write.txt");
 
     // Creating a name string and filling it with the string Entered by the user.
