@@ -17,11 +17,12 @@ int main()
 
     gout.close(); // closing the link.
 
-    // Now, Reading the Content form the file using ifstream.
+    // Now, Reading the Content form the file using ifstream. --->
     ifstream gin("write.txt");
     string content;
     // gin >> content;
     getline(gin, content);
     cout << "The content in the write file is : " << content << endl;
+
     return 0;
 }
