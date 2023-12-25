@@ -9,6 +9,7 @@
         "utility": "cpp",
         "cmath": "cpp",
         "new": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "vector": "cpp"
     }
 }
