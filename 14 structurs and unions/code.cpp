@@ -74,10 +74,10 @@ int main()
         dinner
     };
     meal m1 = lunch;
-    cout << (m1 == 1);
-    // cout << breakfast << endl;
-    // cout << lunch << endl;
-    // cout << dinner << endl;
+    cout << (m1 == 1) << endl;
+    cout << breakfast << endl;
+    cout << lunch << endl;
+    cout << dinner << endl;
 
     return 0;
 }
