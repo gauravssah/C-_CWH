@@ -25,8 +25,8 @@ public:
     }
 };
 
-// int employess::countert; // default value is 0.
-int employess::countert = 1000; // but i can gives a initial value here.
+int employess::countert; // default value is 0.
+// int employess::countert = 1000; // but i can gives a initial value here.
 int main()
 {
     // employess gaurav;
@@ -37,14 +37,17 @@ int main()
 
     gaurav.setData();
     gaurav.getData();
+    gaurav.getcount();
     employess::getcount();
 
     saurav.setData();
     saurav.getData();
+    saurav.getcount();
     employess::getcount();
 
     pinku.setData();
     pinku.getData();
+    pinku.getcount();
     employess::getcount();
 
     return 0;

@@ -3,22 +3,20 @@ using namespace std;
 
 class complex
 {
-
     int a;
     int b;
 
 public:
-    void setData(int v1, int v2)
+    void setData(int x, int y)
     {
-        a = v1;
-        b = v2;
+        a = x;
+        b = y;
     }
 
-    void setDataBySum(complex o1, complex o2)
+    void setDataBySum(complex obj1, complex obj2)
     {
-
-        a = o1.a + o2.a;
-        b = o1.b + o2.b;
+        a = obj1.a + obj2.a;
+        b = obj1.b + obj2.b;
     }
 
     void printNumber()

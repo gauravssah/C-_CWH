@@ -4,7 +4,7 @@ using namespace std;
 
 class binary
 {
-    // private:   // bydefault it is privete,
+    // private:   // bydefault it is private,
     string s;
 
 public:

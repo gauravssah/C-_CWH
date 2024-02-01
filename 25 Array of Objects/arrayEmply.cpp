@@ -10,7 +10,7 @@ private:
 public:
     void setData(void)
     {
-        salery = 512;
+        salery = 100000;
         cout << "Enter The Id: " << endl;
         cin >> id;
     }
@@ -18,7 +18,7 @@ public:
     void getData(void)
     {
         cout << "The id of This Employee is : " << id << endl;
-        cout << salery << endl;
+        cout << "salery : " << salery << endl;
     }
 };
 
