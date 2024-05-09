@@ -16,7 +16,7 @@ public:
     void printNumber()
     {
         cout << "Your Number is : " << a << " + " << b << "i" << endl;
-    }
+    };
 };
 
 Complex ::Complex(void) // --> This is a default constructor, as it accepts no parameters.
@@ -28,7 +28,7 @@ Complex ::Complex(void) // --> This is a default constructor, as it accepts no p
     b = 0;
 
     // cout << "Hello from constructor" << endl;
-}
+};
 
 int main()
 {

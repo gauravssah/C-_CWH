@@ -1,6 +1,6 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
+#include <cmath>
 
 class Point
 {
